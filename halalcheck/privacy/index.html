@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HalalCheck Android Privacy Policy | DamoorApps</title><meta name="description" content="How HalalCheck for Android handles local checks, optional cloud processing, accounts, advertising and deletion requests."><link rel="canonical" href="https://damoorapps.com/halalcheck/privacy/"><meta property="og:type" content="website"><meta property="og:title" content="HalalCheck Android Privacy Policy | DamoorApps"><meta property="og:description" content="How HalalCheck for Android handles local checks, optional cloud processing, accounts, advertising and deletion requests."><meta property="og:url" content="https://damoorapps.com/halalcheck/privacy/"><meta property="og:image" content="https://damoorapps.com/assets/halalcheck/icon.png"><meta property="og:image:alt" content="HalalCheck app icon"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/site.css"><meta name="robots" content="noindex"></head><body class="halalcheck-page"><a class="skip-link" href="#main">Skip to content</a><main id="main" class="wrap policy"><a class="back" href="/halalcheck/">← HalalCheck</a><h1>Privacy Policy</h1><p><strong>HalalCheck for Android — Draft for review: 4 October 2026</strong></p>
+<p>HalalCheck is an ingredient-checking app from <strong>DamoorApps</strong>. This policy explains what information the Android app handles, why it is used, and the choices available to you. Questions and privacy requests can be sent to <strong><a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a></strong>.</p>
+<p>HalalCheck helps you understand food labels. It compares the ingredients it reads against referenced rules and explains its findings. It is not a halal certification body, and a result is not a religious ruling or a guarantee about a product.</p>
+<h2>Summary</h2>
+<ul>
+<li>You can use basic ingredient checks without creating an account.</li>
+<li>Saved checks, preferences and checking-level choices are held on your device; saved check history is not uploaded to our account database.</li>
+<li>Android can read supported label text on the device. Optional cloud reading, translation and AI explanations send a photo or ingredient text to an AI provider after your consent.</li>
+<li>Barcode searches use Open Food Facts through our server. Public product information can be cached to make repeat searches faster.</li>
+<li>Optional sign-in and Premium use account and purchase records. Google Play processes Android payments; we do not receive your card details.</li>
+<li>Free versions can show Google AdMob ads. Advertising involves technical information even when ads are not personalised.</li>
+<li>You can withdraw cloud consent, delete saved checks and request account deletion. Deleting an account does not cancel a Google Play subscription.</li>
+</ul>
+<h2>Information stored on your device</h2>
+<p>The app stores your settings, language, checking level, usage counters and checks you explicitly save to <strong>My Checks</strong>. A saved check can include ingredient text, a result, its date, a barcode or product name, and a reference to a local photo. History is limited to the most recent 200 saved checks. We do not sync this history to your HalalCheck account.</p>
+<p>Photo capture and cropping can also create temporary files. Barcode results are cached locally and treated as fresh for 24 hours; an expired cache entry is not necessarily immediately removed from storage. Temporary files and cached data are different from a check you choose to save.</p>
+<p>If you sign in, a local copy of account information and Premium status is kept so the app can display your account. The session token is stored using the device&#39;s secure storage. The Android app disables its Android automatic-backup setting.</p>
+<p>You can delete saved checks in the app. Removing a check does not remove an original image from your phone&#39;s gallery. Clearing HalalCheck&#39;s app storage through Android removes local app data, including caches; this does not delete a server account or cancel a subscription.</p>
+<h2>Camera and photos</h2>
+<p>Camera access is used when you choose to photograph a label or scan a barcode. You can also select a photo using the Android system photo picker. HalalCheck does not request access to your entire photo library for this flow.</p>
+<p>Supported on-device text recognition processes the selected image locally. A photo is sent to our cloud-reading service only when you choose a cloud operation and agree to cloud processing. Crop the photo to the ingredient list and avoid including faces, personal documents or other private information.</p>
+<p>The app does not request microphone, contacts or precise-location permissions. Online services still receive network information such as an IP address; AdMob may use that address to estimate a general location.</p>
+<h2>Barcode searches</h2>
+<p>When you search by barcode, the barcode is sent to our server, hosted on Cloudflare. Our server requests the corresponding public product information from <strong>Open Food Facts</strong>. It does not forward your device IP address to Open Food Facts.</p>
+<p>Public barcode/product responses, including public ingredient text, can be held in a shared server cache for 24 hours and cached on your device. This shared cache is not a personal scan history and is not linked to your HalalCheck account. Information in Open Food Facts may be incomplete or outdated; compare it with the actual packaging.</p>
+<h2>Optional cloud reading, translation and explanations</h2>
+<p>The app asks for consent before using its cloud features. Depending on the operation you choose:</p>
+<ul>
+<li><strong>Cloud label reading</strong> sends the prepared label photo and requested output language through our server to an AI provider to read or translate the visible ingredients.</li>
+<li><strong>Translate &amp; check</strong> sends ingredient text and the requested output language, rather than the photo.</li>
+<li><strong>AI explanations</strong> send ingredient text and relevant checking information to explain the result.</li>
+</ul>
+<p>The configured services include <strong>Google&#39;s Gemini API</strong>. <strong>OpenAI&#39;s API</strong> can be used as a fallback for some cloud-recognition or explanation operations. AI reads, translates or explains text; the app&#39;s ingredient rules determine the assessment.</p>
+<p>Our application database does not retain your uploaded label photos, submitted ingredient text or the AI responses as a personal history. Those inputs are processed to answer the request. The public product cache described above is separate from uploaded labels. Our database does retain limited consent, quota, security and operational records described below.</p>
+<p>AI providers process requests under their own service terms and may retain content for safety, abuse prevention or legal obligations. Their retention is separate from our application database. Do not assume that cloud processing means that no provider can retain a request.</p>
+<p>You can change your cloud-processing choice in Settings. Withdrawing consent prevents future cloud processing through those features; it does not undo requests already completed. Local features remain available where the selected text and device are supported.</p>
+<h2>Optional accounts and Premium</h2>
+<p>An account is not required for basic local checks. Where Premium and sign-in are offered, sign-in uses an identity provider such as Google rather than a HalalCheck password. Our server verifies the identity token and stores the provider account identifier, email address if supplied, sessions, consent records and subscription entitlement information. A name returned by a sign-in provider can be displayed or cached locally; the account table does not store a name.</p>
+<p>Where Android purchases are enabled, <strong>Google Play</strong> handles the payment and <strong>RevenueCat</strong> helps manage purchase receipts and Premium access using an app account identifier and purchase information. We do not receive or store your payment-card number.</p>
+<p>The server checks the account&#39;s Premium access. Saved checks are not synchronised between phones. Manage or cancel an Android subscription through Google Play.</p>
+<h2>Advertising and other DamoorApps</h2>
+<p>Free versions can show ads supplied by <strong>Google AdMob</strong>. The Android app requests non-personalised ads and blocks the Android advertising-ID permission. These settings do not eliminate all information processed by the advertising service: it can process IP addresses, app or device identifiers, interactions and diagnostic information to deliver and measure ads and prevent fraud. Google&#39;s consent process runs where required before ads are requested.</p>
+<p>Premium hides the app&#39;s home ads and promotional carousel when Premium access is active. The app also contains links or information about other DamoorApps products. Opening an external app page takes you to that website or store, whose own privacy policy applies. The DamoorApps catalogue is not a sharing mechanism for your saved checks or account history.</p>
+<p>You can use Android&#39;s privacy and advertising controls to manage device-level settings. Cloud consent and advertising consent are separate choices.</p>
+<h2>Service operation, security and retention</h2>
+<p>Cloudflare processes connections to our service, including network information necessary to deliver requests and protect the service. We use consent receipts, account sessions, request identifiers, quotas and limited usage events to operate the app, enforce free allowances, prevent abuse and control cloud costs.</p>
+<p>For some anonymous operations, our server uses a keyed hash of a random installation token, and a keyed hash of network information for rate limits. These are pseudonymous identifiers, not a promise that all service data is anonymous. We also maintain aggregate provider-usage totals and error counts. Application error counters contain a route name and error category, rather than the label, photo or full exception message.</p>
+<p>The server&#39;s scheduled cleanup removes completed per-request cloud/free-demo records, selected rate-limit and usage-event records, and application error counts older than 90 days. Expired sign-in challenges are removed. This is not a blanket 90-day deletion promise: pending operations, consent records, aggregate totals, account/subscription records and pending provider-deletion jobs have different purposes and lifetimes.</p>
+<p>Account-linked records are kept while needed for the account and are removed by the account-deletion process described below. Aggregate counts that are no longer linked to an account may remain. Third-party services apply their own retention obligations and settings.</p>
+<p>If crash reporting is enabled in a build, <strong>Sentry</strong> can receive crash and technical information. The app&#39;s JavaScript crash filter removes label text, photos, barcodes, user information, network request details and breadcrumbs from those reports. Native SDK diagnostics are also subject to the provider&#39;s processing; this is not a guarantee that every diagnostic is anonymous.</p>
+<p>Connections to the app&#39;s online services use HTTPS. No internet transmission or storage system can be guaranteed completely secure.</p>
+<h2 id="account-deletion">Your choices and account deletion</h2><p><a class="deletion-link" href="mailto:halalcheck@damoorapps.com?subject=HalalCheck%20account%20deletion">Email an account-deletion request</a></p>
+<p>You can:</p>
+<ul>
+<li>use supported local checks without signing in;</li>
+<li>grant or revoke camera permission through Android settings;</li>
+<li>change cloud-processing consent in HalalCheck Settings;</li>
+<li>delete saved checks using the app&#39;s saved-check controls or Settings;</li>
+<li>sign out of your account;</li>
+<li>choose <strong>Settings → Delete account</strong>, and complete the requested identity confirmation;</li>
+<li>request account deletion without reinstalling the app by emailing <strong><a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a></strong> with the subject <strong>HalalCheck account deletion</strong>.</li>
+</ul>
+<p>For an email request, provide the sign-in provider and account email so we can locate the correct account. We may need to confirm that you control it. Never send your password, payment-card details, identity token or a photo of personal identification.</p>
+<p>When an in-app account-deletion request succeeds, our server removes its account and associated records, and the app clears its saved-check history and signs you out. A RevenueCat deletion request is also submitted; if it cannot be submitted immediately, a retry record is kept until the provider accepts the request. Provider processing can take additional time. Deleting an account is different from simply signing out.</p>
+<p>Deletion does not cancel a Google Play subscription, erase the store&#39;s legally required transaction records or remove an original photo from your phone&#39;s gallery. Cancel a subscription separately through Google Play. For email requests, we will explain any information we must retain and any applicable timing before completing the request.</p>
+<h2>Privacy rights and international processing</h2>
+<p>Depending on where you live, you may have rights to access, correct, erase, restrict or object to processing of your personal data, to receive certain data in a portable format, and to withdraw consent. You can contact <strong><a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a></strong> to exercise those rights. Where applicable, you can also complain to your local data-protection authority. Withdrawing consent does not affect the lawfulness of processing that occurred before withdrawal.</p>
+<p>Our hosting, identity, billing, advertising and AI providers can process information in countries other than your own. Their applicable service agreements and privacy notices describe their processing and international-transfer arrangements. Contact us for information about the international handling of your data.</p>
+<h2>Children</h2>
+<p>HalalCheck is not designed as a service for children. We do not knowingly ask children to create an account or provide personal information. If you believe a child has provided personal information to our service, contact <strong><a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a></strong> so we can investigate and arrange appropriate deletion.</p>
+<h2>Changes to this policy</h2>
+<p>We will post changes on this page with a new last-updated date. The policy should be updated when the app&#39;s data handling changes. Material changes that require a new choice will be explained before the relevant processing begins.</p>
+<h2>Contact</h2>
+<p><strong>Publisher brand:</strong> DamoorApps<br><strong>App:</strong> HalalCheck<br><strong>Privacy and support:</strong> <a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a><br><strong>Website:</strong> <a href="https://damoorapps.com/">DamoorApps.com</a></p>
+<h2>Service information</h2>
+<p>For additional information about providers named in this policy:</p>
+<ul>
+<li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a></li>
+<li><a href="https://world.openfoodfacts.org/">Open Food Facts</a></li>
+<li><a href="https://policies.google.com/privacy">Google privacy policy</a></li>
+<li><a href="https://ai.google.dev/gemini-api/terms">Gemini API terms and data handling</a></li>
+<li><a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI API data controls</a></li>
+<li><a href="https://www.revenuecat.com/privacy-policy">RevenueCat privacy policy</a></li>
+<li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a></li>
+<li><a href="https://sentry.io/privacy/">Sentry privacy policy</a></li>
+</ul>
+<footer class="site-footer"><a href="/halalcheck/privacy/">Privacy Policy</a><a href="/halalcheck/privacy/#account-deletion">Account deletion</a><a href="mailto:halalcheck@damoorapps.com">Contact</a><span>DamoorApps</span></footer></main></body></html>
