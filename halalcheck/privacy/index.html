@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HalalCheck Android Privacy Policy | DamoorApps</title>
-  <meta name="description" content="Privacy information for free HalalCheck on Android: local checks, optional Google Gemini reading, barcode lookup, ads and your choices.">
+  <title>HalalCheck Privacy Policy | DamoorApps</title>
+  <meta name="description" content="Privacy information for free HalalCheck on Android and iPhone: local checks, optional Google Gemini reading, barcode lookup, Google ads and your choices.">
   <link rel="canonical" href="https://damoorapps.com/halalcheck/privacy/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="HalalCheck Android Privacy Policy | DamoorApps">
-  <meta property="og:description" content="How the free HalalCheck Android app handles information and how to contact us about privacy.">
+  <meta property="og:title" content="HalalCheck Privacy Policy | DamoorApps">
+  <meta property="og:description" content="How the free HalalCheck Android and iPhone apps handle information and how to contact us about privacy.">
   <meta property="og:url" content="https://damoorapps.com/halalcheck/privacy/">
   <meta property="og:image" content="https://damoorapps.com/assets/halalcheck/icon.png">
   <meta property="og:image:alt" content="HalalCheck app icon">
@@ -20,36 +20,36 @@
   <main id="main" class="wrap policy">
     <a class="back" href="/halalcheck/">← HalalCheck</a>
     <h1>Privacy Policy</h1>
-    <p class="updated"><strong>HalalCheck for Android — free version 1.0.0 (1)</strong><br>Last updated: <time datetime="2026-10-08">8 October 2026</time></p>
+    <p class="updated"><strong>HalalCheck for Android and iPhone — free versions</strong><br>Last updated: <time datetime="2026-10-09">9 October 2026</time></p>
 
     <p><strong>DamoorApps</strong> operates HalalCheck and is responsible for the app's processing described here. For privacy questions or requests, contact <a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a>.</p>
-    <p>This policy covers the free Android closed-test version, package <strong>com.damoor.halalcheck</strong>. It has no account creation, sign-in, subscriptions or in-app purchases. It does not use RevenueCat or OpenAI, and Sentry crash reporting is not enabled. Other DamoorApps apps have their own policies.</p>
+    <p>This policy covers the free Android and iPhone versions, package/bundle <strong>com.damoor.halalcheck</strong>. They have no account creation, sign-in, subscriptions or in-app purchases. Their reachable features do not use RevenueCat or OpenAI, and Sentry crash reporting is not enabled in these release profiles. Other DamoorApps apps have their own policies. Older account-enabled test versions had different data flows; contact us about any earlier account record.</p>
     <p>HalalCheck provides ingredient-checking guidance using owner-selected rules; scholarly review is in progress. It is not a halal certificate, religious ruling or guarantee about a product.</p>
 
     <h2>At a glance</h2>
     <ul>
       <li>Supported photo recognition and ingredient checks run on your device. Local recognition does not upload your ingredient image or recognised text.</li>
-      <li>Google ML Kit can send technical diagnostics and usage metadata to Google, even though recognition runs on-device.</li>
+      <li>Android uses Google ML Kit, which can send technical diagnostics and usage metadata to Google. iPhone uses Apple Vision locally; Android ML Kit's diagnostics disclosure does not describe the iPhone reader.</li>
       <li>Optional AI reading or translation sends your selected label photo or ingredient text through Cloudflare to <strong>Google Gemini</strong> after your cloud-processing consent.</li>
       <li>Barcode lookups send the barcode through our service to <strong>Open Food Facts</strong>.</li>
-      <li><strong>Google AdMob</strong> supplies ads. Non-personalised ads still involve technical data processing and applicable consent choices.</li>
+      <li><strong>Google AdMob</strong> supplies home-screen banners; testing builds use Google demo ads. Non-personalised ads still involve technical data and consent choices. iPhone can separately ask permission to use an advertising identifier for measurement; refusing it leaves ingredient checking usable.</li>
       <li>Checks you explicitly save remain on your device. Our application database does not store your uploaded label photos, ingredient text or results as a personal check history.</li>
     </ul>
 
     <h2>Photos, permissions and local recognition</h2>
-    <p>Camera permission is used when you choose to photograph a label or scan a barcode. You can select an individual image through Android's system photo picker; this flow does not require access to your entire photo library. You can refuse or revoke camera permission in Android Settings and use typed ingredient entry instead.</p>
-    <p>The app crops and resizes images for recognition. Supported text recognition uses bundled Google ML Kit on the device. Crop to the complete ingredient list and avoid including faces, receipts, addresses, personal documents or other private information.</p>
+    <p>Camera permission is used when you choose to photograph a label or scan a barcode. You can select an individual image through Android's system photo picker; this flow does not require access to your entire photo library. On iPhone, camera/photo access serves the capture or import you choose, subject to iOS permission controls. You can refuse or revoke permissions in your device Settings and use typed ingredient entry instead.</p>
+    <p>The app crops and resizes images for recognition. Android uses bundled Google ML Kit on-device; iPhone uses Apple Vision on-device. These local recognition paths do not upload the label photo or text. Crop to the complete ingredient list and avoid including faces, receipts, addresses, personal documents or other private information.</p>
     <p>ML Kit processes technical information for diagnostics and usage analytics: device model and operating system, app/package version, a per-installation identifier, recognition latency, image format and dimensions, input/output sizes, feature events and error codes. This metadata is separate from the ingredient image and recognised text. Google documents HTTPS transmission and no third-party transfer of the ML Kit metadata listed in its <a href="https://developers.google.com/ml-kit/android-data-disclosure">Android SDK data disclosure</a>.</p>
     <p>HalalCheck does not request contacts, microphone or precise device location. Online services receive network information such as an IP address; an advertising service can derive approximate location from that address.</p>
 
     <h2>Saved checks and device storage</h2>
     <p>Settings, interface language, checking level, consent choices and local usage counters are stored on your device. A check you choose to save can contain original and translated ingredients, result and findings, date, product information, language and a local photo reference. History is limited to the most recent 200 saved checks and is not synchronised to an account or our server.</p>
     <p>Saved checks remain until you remove them, clear history, exceed the history limit or clear app storage. Camera/crop operations can leave temporary image files. Removing a check record does not necessarily erase every cached file or an original image from your gallery. Barcode responses have a 24-hour freshness period; stale device cache entries are not necessarily erased at exactly 24 hours.</p>
-    <p>Use the app's history controls to remove checks. Android Settings → Apps → HalalCheck → Storage → Clear storage removes local app data and settings. Gallery originals must be deleted separately. The app disables Android automatic backup of its app data.</p>
+    <p>Use the app's history controls to remove checks. Android Settings → Apps → HalalCheck → Storage → Clear storage removes local app data and settings; Android automatic app-data backup is disabled. On iPhone, device/iCloud backup and restore are controlled by you and iOS. Secure Keychain items can survive uninstall, so reinstall is not a guaranteed identity or quota reset. Gallery/Photos originals and backups must be managed separately.</p>
 
     <h2>Optional Google Gemini reading and translation</h2>
     <p>Cloud processing requires internet access and your consent. AI photo reading sends a prepared label image, image type, requested language and request ID to our Cloudflare-hosted API. The API forwards the image and reading instructions to Google's paid Gemini API. Text translation sends ingredient text and the requested language instead of the photo. The returned text is used for your check.</p>
-    <p>Free users' AI reading defaults to <strong>Ask each time</strong>. Settings also lets you turn cloud processing off or allow it automatically for applicable readings. If you enable automatic reading, an incomplete local scan can trigger a cloud request under that choice. The free allowance is three successful AI readings per week; the app shows the allowance and asks before using a reading in Ask each time mode. AI consent and advertising consent are separate.</p>
+    <p>Free AI reading uses <strong>Ask each time</strong> on Android and iPhone, so an incomplete local scan does not silently spend a free reading. A successful complete reading or translation uses one of three readings per rolling seven-day period; failed or incomplete readings do not use the allowance. The app shows the remaining allowance and asks before using a reading. You can keep checks local by declining an upload or changing cloud-processing choices in Settings. AI consent and advertising/ATT choices are separate.</p>
     <p>Our application database does not save uploaded label images, submitted ingredient text or AI output. It keeps the operational records described below. Checks you explicitly save locally can contain returned text.</p>
     <p>Google's <a href="https://ai.google.dev/gemini-api/terms">paid Gemini API terms</a> say prompts and responses are not used to improve Google's products. Google can retain and review content for safety, abuse prevention and legal obligations. Its <a href="https://ai.google.dev/gemini-api/docs/usage-policies">abuse-monitoring policy</a> currently specifies 55 days for prompts, contextual information and outputs. Provider retention is separate from our database; cloud processing is not a promise of immediate deletion everywhere.</p>
     <p>Withdraw cloud consent in HalalCheck Settings to stop future cloud operations under that choice. Withdrawal cannot undo a request already processed. Supported offline ingredient checks remain available.</p>
@@ -64,9 +64,11 @@
     <p>Public product responses can be cached on our service for 24 hours and on your device. The shared cache is keyed by barcode and separate from personal scan history. Product information can be incomplete or outdated; compare it with the packaging.</p>
 
     <h2>Advertising and Google's consent choices</h2>
-    <p>The free version shows Google AdMob ads. The app requests <strong>non-personalised ads</strong> and removes the Android advertising-ID permission. This does not prevent all advertising collection. Google's Mobile Ads SDK can process IP addresses and approximate location derived from them, app/ad interactions, device or app-set identifiers and diagnostics for ad delivery, measurement, analytics and fraud prevention. See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+    <p>The free versions can show Google AdMob home-screen banners. TestFlight and Android testing builds use Google demo ads; production builds can use real ads after the applicable choices. Every banner request is <strong>non-personalised</strong>, even if iPhone tracking permission is allowed. Android removes the advertising-ID permission. This does not prevent all SDK collection: Google can process IP/approximate location, permitted device or app identifiers, ad interactions and diagnostics for advertising, measurement, analytics and fraud prevention. See Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Android</a> and <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">iOS SDK disclosures</a> and <a href="https://policies.google.com/privacy">Privacy Policy</a>. There is no result-screen banner.</p>
+    <p>On iPhone, <strong>App Tracking Transparency (ATT)</strong> can ask whether Google may use the advertising identifier (<strong>IDFA</strong>) for advertising and measurement. Google consent choices are gathered first. In the GDPR region, ATT is requested only after Google's storage/access consent permits it; outside that region, the app requires a confirmed regional consent status. Unknown or inconsistent consent and retrieval errors do not initialize ads. Declining ATT leaves ingredient checking usable and can still allow eligible non-personalised ads when Google's independent consent checks permit them. Permission is needed before cross-app advertising tracking; choosing non-personalised ads is not a promise that identifiers are never processed.</p>
+    <p>HalalCheck does not send ingredient photos, label text, saved checks or its installation/quota identity to AdMob. Gemini reading, Open Food Facts lookup and the installation allowance serve separate app functions; HalalCheck does not use them to build advertising profiles. Google's advertising SDK processes its own technical information as described above.</p>
     <p>Google's User Messaging Platform presents consent choices where required, including the EEA, UK and Switzerland. You can consent, decline or manage purposes and partners. The app waits for Google's consent status before requesting ads. Depending on your choices and Google's eligibility rules, limited ads or no ads may be available. Declining consent does not turn ingredient checking into a paid feature.</p>
-    <p>Where available, use <strong>Advertising privacy</strong> in HalalCheck Settings to revisit Google's form. Android also offers device-level privacy controls. Advertising consent does not authorise uploading label photos to Gemini.</p>
+    <p>Where required, use the advertising/privacy-choices entry in HalalCheck Settings to revisit Google's form. Android offers device-level advertising controls. On iPhone, change ATT in Settings → Privacy &amp; Security → Tracking; this is separate from Google's in-app choices. Advertising consent or ATT permission does not authorise uploading label photos to Gemini.</p>
 
     <h2>Recipients, purposes and international processing</h2>
     <p>We use Cloudflare to host and protect the API and database; Google for SDK diagnostics, advertising/consent and optional Gemini processing; and Open Food Facts for public barcode data. They receive information needed for the functions described above. Advertising partners are identified in Google's consent form. Information can also be disclosed when legally required or necessary to investigate abuse or protect legal rights.</p>
@@ -90,15 +92,15 @@
     <p>Depending on your location, you may also have rights to restrict or object to processing, receive eligible data in a portable format, withdraw consent and complain to your local data-protection authority. Withdrawal does not affect earlier lawful processing.</p>
 
     <h2>Sharing, links and the website</h2>
-    <p>If you share a result through Android's share sheet, the receiving app or person gets that content under that service's own rules. Opening another DamoorApps product, store listing or support email is your choice; it does not automatically share your saved-check history.</p>
+    <p>If you share a result through the device share sheet, the receiving app or person gets that content under that service's rules. On iPhone, Report a problem opens a reviewable email report without attaching a photo by default; nothing is sent until you send it. Opening another DamoorApps product, store listing or support email is your choice and does not automatically share saved-check history.</p>
     <p>This page is hosted on GitHub Pages. Visiting the website lets its host receive connection information such as an IP address. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>. App SDK and cloud-processing practices are described separately above.</p>
 
     <h2>Age and policy changes</h2>
-    <p>This Android closed test is intended for adults aged 18 and over. We do not knowingly solicit personal information from children. Contact us if you believe a child has supplied personal information so we can investigate and arrange appropriate handling.</p>
+    <p>HalalCheck is intended for adult shoppers, not the Kids category. The Android closed test is for adults aged 18 and over. We do not claim an age-verification system and do not knowingly solicit personal information from children. Contact us if you believe a child has supplied personal information so we can investigate and arrange appropriate handling.</p>
     <p>We will update this page and its date when data handling changes. Material changes requiring new consent will be explained before the relevant processing begins.</p>
 
     <h2>Contact</h2>
-    <p><strong>Publisher:</strong> DamoorApps<br><strong>App:</strong> HalalCheck for Android<br><strong>Privacy and support:</strong> <a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a><br><strong>Website:</strong> <a href="https://damoorapps.com/">DamoorApps.com</a></p>
+    <p><strong>Publisher:</strong> DamoorApps<br><strong>App:</strong> HalalCheck for Android and iPhone<br><strong>Privacy and support:</strong> <a href="mailto:halalcheck@damoorapps.com">halalcheck@damoorapps.com</a><br><strong>Website:</strong> <a href="https://damoorapps.com/">DamoorApps.com</a></p>
     <footer class="site-footer">
       <a href="/halalcheck/privacy/">Privacy Policy</a>
       <a href="#account-deletion">Data deletion</a>
